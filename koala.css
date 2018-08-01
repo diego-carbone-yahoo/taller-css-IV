@@ -1,0 +1,95 @@
+/* Koala 1 ------------------------------------------------------------------------------ */
+
+.koala1.drunk .eye-left .pupil {
+  animation: look 2s ease 3s alternate;
+}
+
+.koala1.drunk .eye-right .pupil {
+  animation: look 2s ease 3s alternate;
+}
+
+.koala1.drunk {
+  animation: turn 2s ease 5s, leave 2s ease 7s;
+}
+
+.koala1.drunk .face {
+  animation: face 3s ease 5.5s;
+}
+
+    @keyframes look {
+      from {
+        
+      }
+
+      to {
+        
+      }
+    }
+
+    @keyframes face {
+
+      from {
+        
+      }
+
+      to {
+        
+      }
+    }
+
+    @keyframes turn {
+
+      from {
+        
+      }
+
+      to {
+        
+      }
+    }
+
+    @keyframes leave {
+
+      from {
+        
+      }
+
+      to {
+        
+      }
+    }
+
+/* Koala 2 ------------------------------------------------------------------------------ */
+
+.koala2.drunk .eye-left .pupil {
+	animation: eyes2 linear 1s infinite alternate;
+}
+
+.koala2.drunk .eye-right .pupil {
+	animation: eyes2 linear 1s infinite alternate;
+}
+
+.koala2.drunk .nose {
+	animation: nose2 linear 1s infinite alternate;
+}
+
+
+      @keyframes eyes2 {
+        from {
+          
+        }
+
+        to {
+          
+        }
+      }
+
+      @keyframes nose2 {
+        from {
+          
+        }
+
+        to {
+          
+        }
+      }

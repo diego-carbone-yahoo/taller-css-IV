@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0; }
+
+.cuadrado { 
+	width: 130px; 
+	height: 130px; 
+	background: black; 
+	margin: 140px auto;
+	animation-name: mover;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes mover {
+	0% {
+		
+	}
+	50% {
+		
+	}
+	80% {
+		
+	}
+	100% {
+		
+	}
+}
